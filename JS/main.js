@@ -16,12 +16,18 @@ console.log(list_el);
 
 for (let index = 0; index < 100; index++) {
 
+    // creo all'interno del for l'elemento li
+
     const listItem = document.createElement("li");
-    console.log(listItem)
+    console.log(listItem);
+
+    // indico che dovra' essere creato l'elemento li con classe box
 
     listItem.innerHTML = "sono nuovo";
     listItem.classList.add("box");
 
+    // qui uso il method append per far visualizzare il mio listItemItem nell'html
 
+    list_el.append(listItem);
 
 }
