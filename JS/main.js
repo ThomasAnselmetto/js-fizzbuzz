@@ -39,10 +39,10 @@ for (let index = 1; index <= 70; index++) {
         listItem.classList.remove("box")
         listItem.classList.add("buzz");
     }
-    else if (index % 15 == 0); {
-        listItem.innerHTML = "fizzbuzz";
-        listItem.classList.add("fizzbuzz");
-    }
+    // else if (index % 3 == 0 && index % 5 == 0); {
+    //     listItem.innerHTML = "fizzbuzz";
+    //     listItem.classList.add("fizzbuzz");
+    // }
 
 
 
