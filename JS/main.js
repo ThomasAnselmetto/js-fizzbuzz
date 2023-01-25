@@ -14,7 +14,7 @@ console.log(list_el);
 
 // creo il for in modo da aprire un ciclo nel quale creo un num x di variabili
 
-for (let index = 0; index < 100; index++) {
+for (let index = 1; index <= 70; index++) {
 
     // creo all'interno del for l'elemento li
 
@@ -23,11 +23,30 @@ for (let index = 0; index < 100; index++) {
 
     // indico che dovra' essere creato l'elemento li con classe box
 
-    listItem.innerHTML = "sono nuovo";
+    listItem.innerHTML = index;
     listItem.classList.add("box");
 
     // qui uso il method append per far visualizzare il mio listItemItem nell'html
 
     list_el.append(listItem);
+
+    if (index % 3 == 0) {
+        listItem.innerHTML = "fizz";
+        listItem.classList.remove("box")
+        listItem.classList.add("fizz");
+    } else if (index % 5 == 0) {
+        listItem.innerHTML = "buzz";
+        listItem.classList.remove("box")
+        listItem.classList.add("buzz");
+    }
+    else if (index % 15 == 0); {
+        listItem.innerHTML = "fizzbuzz";
+        listItem.classList.add("fizzbuzz");
+    }
+
+
+
+
+
 
 }

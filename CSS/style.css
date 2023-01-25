@@ -1,8 +1,47 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .box {
     width: 100px;
     height: 100px;
     font-weight: bold;
     line-height: 100px;
     text-align: center;
+    border: 1px solid black;
     background-color: #1389B2;
+}
+
+
+
+.fizz {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #0CD6A1;
+}
+
+.buzz {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #FFD166;
+}
+
+.fizzbuzz {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #F0466F;
 }
