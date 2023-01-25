@@ -34,13 +34,15 @@ for (let index = 1; index <= 72; index++) {
         listItem.innerHTML = "fizz";
         listItem.classList.remove("box")
         listItem.classList.add("fizz");
-    } else if (index % 5 == 0) {
+    }if (index % 5 == 0) {
         listItem.innerHTML = "buzz";
         listItem.classList.remove("box")
         listItem.classList.add("buzz");
     }
-    else if (index % 3 == 0 && index % 5 == 0); {
+    if (index % 15 == 0) {
         listItem.innerHTML = "fizzbuzz";
+        listItem.classList.remove("fizz")
+        listItem.classList.remove("buzz")
         listItem.classList.add("fizzbuzz");
     }
 

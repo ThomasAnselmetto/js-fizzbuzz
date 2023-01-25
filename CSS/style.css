@@ -3,7 +3,12 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
-
+li{
+    margin:0.5rem 0.5rem;
+}
+.base{
+    background-color: #083B4C;
+}
 .box {
     width: 100px;
     height: 100px;
