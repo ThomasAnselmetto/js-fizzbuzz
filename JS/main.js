@@ -14,7 +14,7 @@ console.log(list_el);
 
 // creo il for in modo da aprire un ciclo nel quale creo un num x di variabili
 
-for (let index = 1; index <= 70; index++) {
+for (let index = 1; index <= 72; index++) {
 
     // creo all'interno del for l'elemento li
 
